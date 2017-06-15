@@ -8,14 +8,16 @@
     "url": "https://github.com/websanova/js-url"
   },
   "author": {
-    "name" : "Websanova"
+    "name": "Websanova"
   },
-  "homepage" : "http://url.websanova.com",
+  "homepage": "http://url.websanova.com",
   "license": "MIT, GPL",
   "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "",
     "grunt-contrib-qunit": "",
     "grunt-contrib-uglify": "",
-    "grunt-contrib-jshint": ""
+    "qunitjs": "^2.3.3"
   },
   "scripts": {
     "prepublish": "grunt"
