@@ -1,23 +1,22 @@
 {
-  "name": "js-url",
-  "version": "2.5.0",
-  "description": "A simple, lightweight url parser for JavaScript (~1.7 Kb minified, ~0.7Kb gzipped).",
+  "name": "ssm-js-url",
+  "version": "1.0.0",
+  "description": "Modification of the js-url package of Websanova..",
   "main": "url.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/websanova/js-url"
+    "url": "https://github.com/bjoernWahle/js-url"
   },
   "author": {
-    "name": "Websanova"
+    "name": "bjoernWahle"
   },
-  "homepage": "http://url.websanova.com",
+  "homepage": "http://www.shoesize.me",
   "license": "MIT, GPL",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "",
     "grunt-contrib-qunit": "",
-    "grunt-contrib-uglify": "",
-    "qunitjs": "^2.3.3"
+    "grunt-contrib-uglify": ""
   },
   "scripts": {
     "prepublish": "grunt"
